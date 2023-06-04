@@ -28,6 +28,7 @@ Sentiment analysis was also conducted and used as a feature for each tweet using
 
 We then experimented with multiple hyperparamter tunings for the FFNNs eventually concluding that a 256 and 128 neuron layered model worked merginally better than the others, with dropout layers in between.
 
+This project was built off a barebones model I had built prior for the problem. In this project I significantly upgraded the preprocessing strategies and visualizations, as well as improving my feature engineering methods, model construction and hyperparameter tuning. 
 
 Everything I developed in addition to the base model:
 - Modifying sample size & experimenting with it to find a good balance between quantity and efficiency for hyperparameter tuning
