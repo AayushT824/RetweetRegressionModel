@@ -1,6 +1,6 @@
 # RetweetRegressionModel
 
-I decided to attempt to predict the amount of retweets a particular tweet would receive based on its content and when it was posted. Two models were used here - a k nearest regressor and a feed-forward neural network. Alternative regressors such as support vector, Random Forest and Gaussian process were also attempted and played with, but ended up being unable to train in any reasonable amount of time. The final MAE for both models stood at around 6,000. For reference, a completely uninformed model stood at an MAE of about 20,000.
+We decided to attempt to predict the amount of retweets a particular tweet would receive based on its content and when it was posted. Two models were used here - a k nearest regressor and a feed-forward neural network. Alternative regressors such as support vector, Random Forest and Gaussian process were also attempted and played with, but ended up being unable to train within any reasonable amount of time. The final MAE for both models stood at around 6,000. For reference, a completely uninformed model stood at an MAE of about 20,000.
 
 To simplify the dataset and focus on the relevant features for predicting the
 number of retweets, the columns 'id', 'link', 'geo', 'favorites', and 'hashtags' were
